@@ -25,7 +25,7 @@ public class Createboard : EditorWindow
         row = EditorGUILayout.IntSlider(row, 1, 10);
         GUILayout.EndHorizontal();
 
-        GUILayout.Space(5);
+        GUILayout.Space(5); 
 
         GUILayout.BeginHorizontal(new GUIStyle(GUI.skin.box));
         EditorGUILayout.LabelField("Column: ");
